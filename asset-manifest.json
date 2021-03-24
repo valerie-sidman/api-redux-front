@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/api-redux-front/static/css/main.78f5bf86.chunk.css",
+    "main.js": "/api-redux-front/static/js/main.10de6ac0.chunk.js",
+    "main.js.map": "/api-redux-front/static/js/main.10de6ac0.chunk.js.map",
+    "runtime-main.js": "/api-redux-front/static/js/runtime-main.55e76d67.js",
+    "runtime-main.js.map": "/api-redux-front/static/js/runtime-main.55e76d67.js.map",
+    "static/js/2.e9bbd40a.chunk.js": "/api-redux-front/static/js/2.e9bbd40a.chunk.js",
+    "static/js/2.e9bbd40a.chunk.js.map": "/api-redux-front/static/js/2.e9bbd40a.chunk.js.map",
+    "static/js/3.680a2193.chunk.js": "/api-redux-front/static/js/3.680a2193.chunk.js",
+    "static/js/3.680a2193.chunk.js.map": "/api-redux-front/static/js/3.680a2193.chunk.js.map",
+    "index.html": "/api-redux-front/index.html",
+    "static/css/main.78f5bf86.chunk.css.map": "/api-redux-front/static/css/main.78f5bf86.chunk.css.map",
+    "static/js/2.e9bbd40a.chunk.js.LICENSE.txt": "/api-redux-front/static/js/2.e9bbd40a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55e76d67.js",
+    "static/js/2.e9bbd40a.chunk.js",
+    "static/css/main.78f5bf86.chunk.css",
+    "static/js/main.10de6ac0.chunk.js"
+  ]
+}
