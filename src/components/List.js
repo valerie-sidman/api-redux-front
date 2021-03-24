@@ -38,7 +38,7 @@ export default function List() {
           <div className="card-header">Price: {o.price}</div>
           <div className="card-body">
             <p className="card-text">Service: {o.name}</p>
-            <Link to={`/api-redux-front/services/${o.id}`} className="btn btn-warning">Edit</Link>
+            <Link to={`/services/${o.id}`} className="btn btn-warning">Edit</Link>
             <button type="button" className="btn btn-danger" onClick={() => handleRemove(o.id)}>Delete</button>
           </div>
         </li>)}

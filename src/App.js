@@ -6,17 +6,17 @@ import Edit from './components/Edit';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
       <div className="main-container">
         <h1 className="main-title">Services list:</h1>
         <Switch>
-          <Route exact path='/api-redux-front/services' render={() =>
+          <Route exact path='/services' render={() =>
             <>
               <Add />
               <List />
             </>
           } />
-          <Route path="/api-redux-front/services/:id([0-9]+)?" component={Edit} />
+          <Route path="/services/:id([0-9]+)?" component={Edit} />
         </Switch>
       </div>
     </Router>

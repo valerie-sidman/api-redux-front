@@ -17,7 +17,7 @@ export default function Edit({ match }) {
     evt.preventDefault();
     addService(dispatch, item.id, item.name, item.price, item.content);
     dispatch(clearFields());
-    history.push("/api-redux-front/services");
+    history.push("/services");
   }
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function Edit({ match }) {
         </div>
       </div>
       <button type="submit" className="btn btn-success" onClick={handleEdit} disabled={loading}>Apply</button>
-      <Link to="/api-redux-front/services" className="btn btn-secondary">Cancel</Link>
+      <Link to="/services" className="btn btn-secondary">Cancel</Link>
       {error && <div className="alert alert-danger" role="alert">Ошибка редактирования данных</div>}
     </form>
     </div>
