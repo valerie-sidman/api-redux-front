@@ -1,7 +1,7 @@
 {
   "name": "store-func",
   "version": "0.1.0",
-  "homepage": "https://valerie-sidman.github.io/api-redux-front/services/",
+  "homepage": "https://valerie-sidman.github.io/api-redux-front",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
